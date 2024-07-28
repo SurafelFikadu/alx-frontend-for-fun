@@ -862,7 +862,3 @@ fieldset {
     border: none;
     padding: 0 0 2rem;
 }
-
-legend {
-    visibility: hidden;
-}
