@@ -870,3 +870,14 @@ label {
     font-size: 1.4rem;
     padding: 0 0 0.5rem;
 }
+
+.button-primary {
+    padding: 1rem;
+    background: #ffffff;
+    border: 1px solid#D73953;
+}
+
+.button-primary:hover {
+    background: #D73953;
+    color: white;
+}
