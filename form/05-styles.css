@@ -903,15 +903,33 @@ textarea:focus {
     font-size: var(--font-size-small);
 }
 
+/* Form group
+  ============================= */
+
 .form-group {
     padding: 1rem;
     margin: 0;
     background-color: var(--color-white);
 }
 
-.form-group:focus {
-    background-color: var();
+.form-group:focus-within {
+    background-color: var(--color-light-grey);
+    transition: 0.3s;
 }
+
+/* Form field
+  ============================= */
+
+.form-field-container {
+    position: relative;
+}
+
+.form-field-icon {
+    font-style: normal;
+}
+
+/* Form help
+  ============================= */
 
 .form-group .form-help {
     margin: 0;
@@ -924,7 +942,7 @@ textarea:focus {
     overflow: hidden;
 }
 
-.form-group:focus .form-help {
+.form-group:focus-within .form-help {
     max-height: 20rem;
-    margin: 4rem 0 0;
+    margin: 0.4rem 0 0;
 }
