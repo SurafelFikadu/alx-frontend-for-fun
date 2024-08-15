@@ -1,9 +1,6 @@
-$text-color-hover: #00FF00;
-$text-color-button: #FF0000;
-
 button {
-    color: $text-color-button;
+    color: #FF0000;
     &:hover {
-        color: $text-color-hover;
+        color: #00FF00;
     }
 }
